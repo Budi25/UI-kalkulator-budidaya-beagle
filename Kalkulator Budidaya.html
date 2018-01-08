@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kalkulator Analisis Budidaya</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style-kalkulator-budidaya.css">
+</head>
+<body>
+<div class="wrapper-kalkulator">
+	<div class="content-wrapper">
+	<!-- header -->
+		<div class="header">
+			<div class="caption col-lg-10">
+				<h1>Kalkulator Budidaya</h1>
+				<h3>solusi cerdas untuk memulai investasi budidaya perikanan</h3>
+			</div>
+			<div class="date-time col-lg-2">
+				<p id="d" class="right"></p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	<!-- tutup header -->
+	<form>
+		<div class="content-kiri left col-sm-12 col-md-4 col-lg-4  ">
+			<div class="wrap1">
+				<div class="lokasi-kolam">
+					<h4>Lokasi Kolam</h4>
+					 <div class="form-group">
+						  <label for="sel1">Kabupaten:</label>
+						  <select class="form-control" id="sel1">
+						  	<option> </option>
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						  </select>
+						</div>
+						<div class="form-group">
+						  <label for="sel1">Kecamatan:</label>
+						  <select class="form-control" id="sel1">
+						  	<option> </option>
+						    <option>1</option>
+						    <option>2</option>
+						    <option>3</option>
+						  </select>
+						</div>
+					</div>
+				</div><!-- tutup wrap1 -->
+				<div class="wrap2">
+					<div class="waktu-pengontrolan">
+						<h4>Waktu Pengontrolan</h4>
+						 	<div class="radio"><label><input type="radio" name="optradio1"> Half time</label></div>
+						 	<div class="radio"><label><input type="radio" name="optradio1"> Full time</label></div>
+					</div>
+				</div><!-- tutup wrap3 -->
+				<div class="wrap3">
+					<div class="pengalaman-budidaya">
+						<h4>Pengalaman Budidaya</h4>
+							 <div class="radio"><label><input type="radio" name="optradio2"> 1-3 Tahun</label></div>
+							 <div class="radio"><label><input type="radio" name="optradio2"> 3-5 Tahun</label></div>
+							 <div class="radio"><label><input type="radio" name="optradio2"> > 5 Tahun</label></div>
+					</div>
+				</div><!-- tutup wrap3 -->
+
+			</div><!-- tutup content kiri -->
+		<div class="content-kanan right col-sm-12 col-md-8 col-lg-8">
+			<div class="wrap4">
+				<div class="komoditi-budidaya">
+					<h4>Komoditi Budidaya</h4>
+					<div class="row radio-button">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<input type="radio" id="lele" name="amount" checked="checked" />
+							<label for="lele">Lele</label>
+						</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<input type="radio" id="nila" name="amount" />
+							<label for="nila">Nila</label>
+						</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<input type="radio" id="patin" name="amount" />
+							<label for="patin">Patin</label>
+						</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<input type="radio" id="gurami" name="amount" />
+							<label for="gurami">Gurami</label>
+						</div>
+					</div><!-- tutup radio button -->
+					<div class="input1">
+							<div class="form-group left col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<label >Jumlah tebar:</label>
+							<input type="number" class="form-control" id="v1">
+							<p id="angka1" class="error">Masukkan angka dengan benar</p>
+						</div>	
+						<div class="form-group left col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<label >Harga bibit:</label>
+							<input type="number" class="form-control" id="v2">
+							<p id="angka2" class="error">Masukkan angka dengan benar</p>
+						</div>
+						<div class="form-group left col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<label >Harga pakan:</label>
+							<input type="number" class="form-control" id="v3">
+							<p id="angka3" class="error">Masukkan angka dengan benar</p>
+						</div>	
+						<div class="form-group left col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<label >Harga jual:</label>
+							<input type="number" class="form-control" id="v4">
+							<p id="angka4" class="error">Masukkan angka dengan benar</p>
+						</div>
+					</div><!-- tutup input1 -->
+						<div class="clear"></div>
+					<div class="checkbox col-lg-6">
+						<label><input type="checkbox" value="">Centang jika anda tidak mengatahui harga pakan terbaru di daerah anda</label>
+					</div>
+					<div class="checkbox col-lg-6">
+						<label><input type="checkbox" value="">Centang jika anda tidak mengatahui harga jual terbaru di daerah anda</label>
+					</div>
+					<div class="input2 clear">
+						<div class="form-group">
+							<label>Panjang kolam /m:</label>
+							<input type="number" class="form-control" id="v5">
+							<p id="angka5" class="error">Masukkan angka dengan benar</p>
+						</div>
+						<div class="form-group">
+							<label>Lebar kolam /m:</label>
+							<input type="number" class="form-control" id="v6">
+							<p id="angka6" class="error">Masukkan angka dengan benar</p>
+						</div>
+						<div class="form-group">
+							<label>Tinggi kolam /cm:</label>
+							<input type="number" class="form-control" id="v7">
+							<p id="angka7" class="error">Masukkan angka dengan benar</p>
+						</div>
+					</div><!-- tutup input2 -->		
+				</div><!-- tutup komoditi budidaya -->
+			</div><!-- tutup wrap4 -->
+		</div><!-- tutup content kanan -->
+		<div class="clear"></div>
+		<div class="row wrap5 clear">
+			<ul class="col-lg-3 col-md-3">
+				<li><button type="submit" class="btn btn-default">Hitung</button></li>
+				<li><button type="reset" class="btn btn-default">Reset</button></li>
+			</ul>
+			<ul class="col-lg-9 col-md-9">
+				<output>
+		        	<div id="value">1.29%</div>
+		        	<div id="grade">Budidaya Anda akan gagal</div>
+		        	<div id="analis">Berdasarkan analisis data yang dimiliki, anda dapat memaksimalkan jumlah tebar sebanyak 1000 ekor</div>
+		        </output>
+		   	</ul>
+		</div>
+		</form>
+	</div><!-- tutup content wrapper -->
+</div><!-- tutup wraper -->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type='text/javascript'>
+		
+		var d = new Date();
+		document.getElementById("d").innerHTML = d.toDateString();
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+ul{
+	list-style: none;
+}
+.wrapper-kalkulator{
+	background-color: #ecf0f5;
+	width: 100%;	
+	margin: 0;
+}
+.content-wrapper{
+	width: 90%;
+	margin: auto;
+}
+.wrapper-kalkulator .header h1{
+	margin: 0 !important;
+	padding: 20px 0 0 0;
+}
+.wrapper-kalkulator .header h3{
+	margin: 0 !important;
+}
+.wrapper-kalkulator .header{
+	margin: 0;
+}
+.caption{
+}
+.date-time{
+	padding-top: 68px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.wrap1,
+.wrap2,
+.wrap3,
+.wrap4{
+	padding: 20px 30px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #c8c8c8;
+	border-top: 5px solid #457b9d;
+	background-color: #fff;
+}
+.wrap5{
+	padding: 20px 5px;
+	border: 1px solid #c8c8c8;
+	border-top: 5px solid #457b9d;
+	background-color: #fff;
+}
+.wrap2,
+.wrap3{
+	height: 150px;
+}
+.radio{
+	display: inline-block;
+	margin-right: 10px;
+}
+.lokasi-kolam .form-control {
+	border: 0 ;
+    box-shadow: 0px 0px 0px !important;
+    border-bottom: 1px solid black;
+    border-radius: 0 !important;
+}
+.content-kiri{
+	padding: 0 5px 0 15px;
+}
+.content-kanan{
+	padding: 0 5px 0 5px;
+}
+
+.komoditi-budidaya .radio-button{
+	margin: 0 !important;
+}
+.radio-button div {
+    padding: 0 10px;
+}
+.radio-button div:first-child{
+	padding-left: 0px !important;
+}
+.radio-button div:last-child{
+	padding-right: 0px !important;
+}
+
+.radio-button label, .radio-button input {
+    display:block;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.radio-button label{
+	padding: 5px;
+}
+.radio-button [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+	height: 30px !important;
+	width: 100%;
+	color: #c9d6de;
+}
+.radio-button input[type="radio"] {
+    opacity:0.011 !important;
+    z-index:100;
+}
+.radio-button [type="radio"]+label:before, [type="radio"]+label:after {
+	display: none;
+}
+
+.radio-button input[type="radio"]:checked + label {
+    background: #06bee1;
+    color: #fff;
+    border: 0;
+}
+
+.radio-button label {
+    padding: 5px 0 0 0;
+    text-align: center;
+    border: 1px solid #c9d6de;
+    cursor: pointer;
+    z-index: 90;
+}
+
+.radio-button label:hover {
+     background:#e9f2f7;
+}
+.input1 div:first-child,
+.input1 div:nth-child(3){
+	padding-left: 0 !important;
+	padding-right: 10px !important;
+}
+.input1 div:last-child,
+.input1 div:nth-child(2){
+	padding-right: 0 !important;
+	padding-left: 10px !important;
+}
+.input1 .form-control,
+.input2 .form-control{
+	border: 0 !important;
+    border-bottom: 1px solid !important;
+    box-shadow: 0 0 0 !important;
+    border-radius: 0 !important;
+}
+.checkbox{
+	margin: 0 !important;
+}
+.wrap5{
+	margin: 0 5px 5px 15px;
+}
+.wrap5 ul .btn{
+	font-size: 18px;
+	width: 100%;
+	margin: 5px;
+	background-color: #06bee1 !important;
+	color: #fff !important;
+	height: 65px !important; 
+	border-radius: 0 !important;
+}
+.wrap5 ul .btn:hover{
+	background-color: #05aaca !important;
+}
+#value{
+    color: #333;
+    float: left;
+    font-size: 50px;
+    padding: 20px 0 0 0;
+}
+#grade{
+    font-size: 18px;
+    color: #333;
+    height: 50%;
+    width: 70%;
+    float: right;
+}
+#analis{
+    font-size: 18px;
+    color: #333;
+    height: 50%;
+    width: 70%;
+    float: right;
+}
+.error{
+	color: #ed0b0b;
+}
+.wrap5 ul output{
+	height: 150px;
+    float: left;
+    padding: 20px 12px 12px 16px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #c9d6de;
+}
+.input1 .form-group label{
+	position: relative;
+	top: 30px;
+}
+.input1 .form-group:nth-child(1) .form-control{
+	padding-left: 95px;
+}
+.input1 .form-group:nth-child(2) .form-control{
+	padding-left: 82px;
+}
+.input1 .form-group:nth-child(3) .form-control{
+	padding-left: 92px;
+}
+.input1 .form-group:nth-child(4) .form-control{
+	padding-left: 75px;
+}
+.input2 .form-group label{
+	position: relative;
+	top: 30px;
+}
+.input2 .form-group:nth-child(1) .form-control{
+	    padding-left: 128px;
+}
+.input2 .form-group:nth-child(2) .form-control{
+	padding-left: 112px;
+}
+.input2 .form-group:nth-child(3) .form-control{
+	padding-left: 125px;
+}
+.lokasi-kolam .form-group label{
+	position: relative;
+	top: 30px;
+}
+.lokasi-kolam .form-control {
+	    padding-left: 80px;
+}
+.input1 .form-group,
+.input2 .form-group{
+	margin: 0 !important;
+	line-height: 0.99 !important;
+	
+}
+.header p{
+	margin: 0;
+}
+.lokasi-kolam .form-control,
+.input1 .form-control,
+.input2 .form-control{
+	background-color: transparent !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+@media only screen and (max-width: 1024px){
+		.date-time {
+		padding-top: 0px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.content-kanan {
+    padding: 0 5px 0 15px;
+	}
+	.input1 div:first-child,
+	.input1 div:nth-child(2), 
+	.input1 div:nth-child(3),
+	.input1 div:last-child{
+		padding: 0 !important;
+	}
+	.checkbox{
+	margin: 10px 0 !important;
+	}
+	.header p{
+    margin: 10px 0;
+
+	}
+	.wrap5 ul .btn {
+		margin: 5px 0;
+	}
+}
+@media only screen and (max-width: 425px){
+	.wrap1, .wrap2, .wrap3, .wrap4 {
+    	padding: 20px 32px;
+	}
+	.input1 div:first-child,
+	.input1 div:nth-child(2), 
+	.input1 div:nth-child(3),
+	.input1 div:last-child{
+		padding: 0 !important;
+	}
+	.radio-button div:first-child,
+	.radio-button div:nth-child(2),
+	.radio-button div:nth-child(3),
+	.radio-button div:last-child{
+		padding: 0 !important;
+	}
+	.wrap5 ul output {
+		height: auto;
+	}
+	#grade,
+	#analis {
+		margin: 5px 0;
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 0 20px;
+	}
+	#value{
+		text-align: center;
+		float: none;
+	}
+}
+@media only screen and (max-width: 375px){
+	#grade,
+	#analis {
+		padding: 0 14px;
+	}
+}
+@media only screen and (max-width: 375px){
+	#grade{
+		padding: 15px;
+	}
+	#analis{
+		padding: 0;
+	}
+}

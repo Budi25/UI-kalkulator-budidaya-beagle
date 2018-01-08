@@ -1,0 +1,204 @@
+
+.container h3{
+	font-family: fantasy;
+    color: #2bb7aa;
+    margin: 0 0 0 10px!important;
+    padding-top: 20px;
+    font-size: 75px;
+}
+.container h6{
+    color: #6ebef9;
+    margin: 0 0 0 10px!important;
+    font-size: 25px;
+}
+.row h5{
+	color: #c3c3c3;
+}
+.row{
+	float: left;
+	margin: 0 !important;
+	width: 100%;
+}
+.input-field.col label {
+	left: 0 !important;
+}
+.select-wrapper input.select-dropdown {
+	border-bottom: 1px solid #009688 !important;
+	color: #737373;
+}
+.lokasi-kolam{
+	width: 70%;
+}
+.radio-button {
+     list-style-type:none;
+     margin:25px 0 0 0;
+     padding:0;
+}
+
+.radio-button li {
+     float:left;
+     margin:0 5px 0 0;
+    width:17%;
+    height:40px;
+    position:relative;
+}
+
+.radio-button label, .radio-button input {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.radio-button [type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+	height: 40px !important;
+	width: 100%;
+}
+.radio-button input[type="radio"] {
+    opacity:0.011 !important;
+    z-index:100;
+}
+.radio-button [type="radio"]+label:before, [type="radio"]+label:after {
+	display: none;
+}
+
+.radio-button input[type="radio"]:checked + label {
+    background: #2bbbad;
+    color: #fff;
+}
+
+.radio-button label {
+     padding:5px;
+     border:1px solid #CCC; 
+     cursor:pointer;
+    z-index:90;
+}
+
+.radio-button label:hover {
+     background:#DDD;
+}
+.button .btn{
+	margin: 10px;
+	text-transform: capitalize; 
+}
+.button{
+	margin: 20px 0 !important;
+	width: 83%;
+}
+.input1{
+	width: 70%;
+}
+.input1 p {
+	margin: 0 !important;
+}
+.input1 input[type="number"]{
+	border-bottom: 1px solid #009688 !important;
+	margin: 0 !important;
+}
+.input2{
+	width: 70%;
+	margin-top: 20px !important;
+}
+.input2 p {
+	margin: 0 !important;
+}
+.input2 input[type="number"]{
+	border-bottom: 1px solid #009688 !important;
+	margin: 0 !important;
+}
+.output output{
+	height: 120px;
+    float: left;
+    padding: 12px 25px 12px 12px;
+    width: 70%;
+    background-color: #009688;
+}
+#value{
+	color: #fff;
+	float: left;
+    font-size: 50px;
+    font-family: impact;
+    margin-top: 10px;
+}
+#grade{
+	color: #069BA8;
+	height: 100%;
+    width: 70%;
+    float: right;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+}
+.error{
+	color: #ed0b0b;
+	font-size: 13px;
+}
+
+@media only screen and (min-width: 993px){
+.row .col.l3 {
+    width: 12% !important;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.output output{
+		width: 70%;
+	}
+	.container h3{
+		font-size: 60px;
+	}
+	.container h6{
+		font-size: 20px;
+	}
+	#value{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.output output{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 425px){
+	#value{
+		font-size: 35px;
+		margin:0;
+	}
+	#grade{
+		width: 70%;
+		margin:0;
+	}
+	.lokasi-kolam{
+	width: 100%;
+	}
+	.input1{
+	width: 100%;
+	}
+	.input2{
+		width: 100%;
+	}
+	.button{
+		width: 100%;
+	}
+	.output output{
+		width: 100%;
+	}
+	.radio-button li{
+		width: 100%;
+		margin: 5px 5px 0 0;
+	}
+}
+@media only screen and (max-width: 375px){
+	.output output {
+    padding: 12px 12px 12px 12px;
+	}
+}
+@media only screen and (max-width: 360px){
+	#grade{
+		width: 100%;
+		height: 70%;
+	}
+	.output output{
+		height: 200px;
+	}
+}
